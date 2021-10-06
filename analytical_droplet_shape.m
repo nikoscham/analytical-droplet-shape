@@ -5,7 +5,7 @@
 
 Vdroplet = input ("Define droplet's volume (ul): "); % Droplet volume (ul)
 Vdroplet = Vdroplet*1e-9; % Convert to m3
-ThetaY = input ("Define Young's contact angle (deg): "); % Young's contact angle
+ThetaY = input ("Define Young's contact angle (deg): "); % Young's contact angle (deg)
 ThetaY = ThetaY * pi / 180; % Convert to rad
 
 % Calculate the point where the droplet touches the solid surface (ro)
@@ -17,6 +17,7 @@ zc = ro/tan(pi-ThetaY);
 % Calculate the radius of the circle (R)
 R = sqrt(zc^2+ro^2);
 
+% Convert to mm
 ro = ro * 1000;
 zc = zc * 1000;
 R = R *1000;
