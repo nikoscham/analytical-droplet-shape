@@ -4,7 +4,7 @@ Analytical calculation of the shape of an axisymmetric droplet on a smooth solid
 ## Files in this directory
 LICENSE: text of the GNU GPL v3 license.</br>
 README.md: the present file.</br>
-analytical_droplet_shape.m: main program
+analytical_droplet_shape.m: main program.
 
 ## Run example
 Launch "analytical_droplet_shape.m" from Octave console. Define the volume of the droplet (typically smaller than 5 ul) and the Young's contact angle (between 0 and 180 degrees).
