@@ -1,5 +1,5 @@
 # analytical-droplet-shape
-Analytical calculation of the shape of an axisymmetric droplet on a flat and smooth solid surface for a given liquid volume and Young’s contact angle as presented by [Chamakos, 2017](http://dspace.lib.ntua.gr/xmlui/handle/123456789/44746) (Section 2.1.3).
+Analytical calculation of the shape of an axisymmetric droplet on a flat and smooth solid surface for a given liquid volume and Young’s contact angle as presented by [Chamakos, 2017](https://dspace.lib.ntua.gr/xmlui/handle/123456789/44746) (Section 2.1.3).
 
 ## Files in this directory
 LICENSE: text of the GNU GPL v3 license.</br>
